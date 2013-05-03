@@ -1,0 +1,8 @@
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\bin\Debug\Ccr.Core.dll
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\bin\Debug\DcounterCommunication.dll
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\bin\Debug\DcounterCommunication.pdb
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\lenovo\Desktop\src\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

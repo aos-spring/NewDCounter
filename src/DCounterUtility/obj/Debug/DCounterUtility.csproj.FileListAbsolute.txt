@@ -1,0 +1,5 @@
+C:\Users\lenovo\Desktop\src\DCounterUtility\bin\Debug\DCounterUtility.dll
+C:\Users\lenovo\Desktop\src\DCounterUtility\bin\Debug\DCounterUtility.pdb
+C:\Users\lenovo\Desktop\src\DCounterUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\src\DCounterUtility\obj\Debug\DCounterUtility.dll
+C:\Users\lenovo\Desktop\src\DCounterUtility\obj\Debug\DCounterUtility.pdb

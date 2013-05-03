@@ -1,0 +1,5 @@
+E:\workfiles\svnRoot\sourceCode\distributioncounter\Communication\bin\Debug\Communication.dll
+E:\workfiles\svnRoot\sourceCode\distributioncounter\Communication\bin\Debug\Communication.pdb
+E:\workfiles\svnRoot\sourceCode\distributioncounter\Communication\obj\Debug\ResolveAssemblyReference.cache
+E:\workfiles\svnRoot\sourceCode\distributioncounter\Communication\obj\Debug\Communication.dll
+E:\workfiles\svnRoot\sourceCode\distributioncounter\Communication\obj\Debug\Communication.pdb
