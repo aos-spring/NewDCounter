@@ -5,7 +5,8 @@ using System.Text;
 using Microsoft.Ccr.Core;
 using System.Net.Sockets;
 using System.Threading;
-using DcounterCommunication;
+ 
+using DCounterCommunication;
 
 namespace ConsoleApplication1
 {

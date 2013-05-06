@@ -45,6 +45,7 @@
     <Compile Include="CcrQueue.cs" />
     <Compile Include="ConnectService.cs" />
     <Compile Include="Core.cs" />
+    <Compile Include="DCounterConfig.cs" />
     <Compile Include="InnerService.cs" />
     <Compile Include="Interface\IDataHandler.cs" />
     <Compile Include="Interface\IInnerCommunication.cs" />

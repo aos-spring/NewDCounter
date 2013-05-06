@@ -6,7 +6,7 @@ using System.Threading;
 using System.Net.Sockets;
 using System.Net;
 
-namespace DcounterCommunication
+namespace DCounterCommunication
 {
     public class AsyncUserToken
     {

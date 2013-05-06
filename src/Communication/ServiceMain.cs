@@ -7,12 +7,12 @@ using System.Net.Sockets;
 using System.Net;
 using System.Threading;
 
-namespace DcounterCommunication
+namespace DCounterCommunication
 {
     public class ServiceMain
     {
         private NodeInfo nodeInfo;
-        private List<NodeInfo> allNodeInfo = new List<NodeInfo>();
+        private List<NodeInfo> allNodeInfo;
         public ServiceMain(bool client)
         {
             if (client)
@@ -26,6 +26,8 @@ namespace DcounterCommunication
                 allNodeInfo.Add(new NodeInfo { IP = "127.0.0.1", Port = 9999, IsPrimary = false, IsLocalMachine = true });
             }
 
+
+            allNodeInfo = DCounterConfig.Instance.Machines;
             Init();
 
         }
@@ -41,7 +43,7 @@ namespace DcounterCommunication
             {
                 nodeInfo.ServerSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 nodeInfo.ServerSocket.Bind(new IPEndPoint(IPAddress.Any, nodeInfo.Port));
-                nodeInfo.ServerSocket.Listen(1000);
+                nodeInfo.ServerSocket.Listen(20000);
 
                 while (true)
                 {
@@ -57,9 +59,9 @@ namespace DcounterCommunication
                 var temp = allNodeInfo.Find(a => a.IsPrimary);
                 nodeInfo.ClientSocket.Connect(temp.IP, temp.Port);
                 CcrQueue.SetSocket(nodeInfo.ClientSocket);
-                ConnectService con = new ConnectService(100, 8192);
+                ConnectService con = new ConnectService(20000, 1024);
                 con.Init();
-                con.Start(new IPEndPoint(IPAddress.Any, 8888));
+                con.Start(new IPEndPoint(IPAddress.Any,  DCounterConfig.Instance.OutServerPort));
 
 
             }

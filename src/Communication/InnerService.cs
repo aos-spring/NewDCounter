@@ -5,7 +5,7 @@ using System.Text;
 using System.Net.Sockets;
 using System.Net;
 
-namespace DcounterCommunication
+namespace DCounterCommunication
 {
     public class InnerService
     {

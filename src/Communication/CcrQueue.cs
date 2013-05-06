@@ -6,7 +6,7 @@ using Microsoft.Ccr.Core;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace DcounterCommunication
+namespace DCounterCommunication
 {
 
 
